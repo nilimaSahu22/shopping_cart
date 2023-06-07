@@ -25,14 +25,17 @@ a{
     text-decoration: none;
     color: #555;
 }
-p{
+.homeptag{
     color: #555;
+    padding: 10px 10px 10px 0;
+    font-size: large;
 }
 .container{
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    
 }
 .row{
     display: flex;
@@ -43,4 +46,39 @@ p{
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.btn{
+    display: inline-block;
+    background: #D4ADFC;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #9336B4;
+}
+.header{
+    background: radial-gradient(white,#FFCEFE);
+}
+.col-3{
+    flex-basis: 30%; 
+    min-width: 250px;
+    margin-bottom: 30px;
+
+}
+.col-3 img{
+    width: 75%;
+    margin-top: 20px;
+}
+.small_container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 }
