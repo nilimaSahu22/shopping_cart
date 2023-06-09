@@ -140,22 +140,20 @@
     </div>
 </div>
 <script>
-// toggle menu 
     var Menuitems = document.getElementById("Menuitems");
-    Menuitems.style.maxHeight ="0px";
-    function menutoggle(){
-        if(Menuitems.style.maxHeight == "0px")
-            {
-                Menuitems.style.maxHeight = "200px";
+    Menuitems.style.maxHeight = "0px"; // Initially set the menu height to 0px
     
-            }
-        else
-            {
-                Menuitems.style.maxHeight = "0px";
-    
-            }
+    function menutoggle() {
+        if (Menuitems.style.maxHeight == "0px") {
+            // If the menu is closed (height is 0px), open it by setting maxHeight to a specific value
+            Menuitems.style.maxHeight = "200px";
+        } else {
+            // If the menu is open, close it by setting maxHeight back to 0px
+            Menuitems.style.maxHeight = "0px";
+        }
     }
 </script>
+
 
 
     </body>
